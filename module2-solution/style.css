@@ -1,23 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<style>
+
 
 /********** Base styles **********/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 h1 {
   font-size: 24.5px;
   margin-bottom: 30px;
   margin-top: 10px;
   text-align: center;
-  font-family: Helvetica;
 }
 
 .row {
@@ -28,24 +22,29 @@ h1 {
   position: relative;
   background-color: gray; 
   height: 150px;
-  font-family: Helvetica;
   color: white;
   margin: 10px;
   border: 1px solid black;
 }
 p
 {
+  /*top-right corner*/
   position: absolute;
   top: 0;
   right: 0;
+
   width: 35%;
   height: 26%;
+
   border: 1px solid black;
   border-top: 0;
   border-right: 0;
+
   font-size: 17.5px;
   text-align: center;
+
   padding-top: 8px;
+  
 }
 
 article
@@ -196,23 +195,3 @@ article
   }
 }
 </style>
-</head>
-<body>
-<h1>Main menu</h1>
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-8"><section id="card1"><article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.</article><p id = "p1">Chicken</p></section></div>
-  <div class="col-lg-4 col-md-6 col-sm-8"><section id="card2"><article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.</article><p id = "p2">Beef</p></section></div>
-  <div class="col-lg-4 col-md-12 col-sm-8"><section id="card2"><article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.</article><p id = "p3">Tapchan</p></section></div>
-</div>
-
-</body>
-</html>
